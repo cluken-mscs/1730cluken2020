@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1730ex1b", "cluken1730ex1b\cluken1730ex1b.csproj", "{DE0FDE1D-062C-4476-A441-5C7A4D536DC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1730e1b", "cluken1730e1b\cluken1730e1b.csproj", "{E2AAD456-BB33-4192-9FD5-FFC23AE397B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DE0FDE1D-062C-4476-A441-5C7A4D536DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE0FDE1D-062C-4476-A441-5C7A4D536DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE0FDE1D-062C-4476-A441-5C7A4D536DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE0FDE1D-062C-4476-A441-5C7A4D536DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2AAD456-BB33-4192-9FD5-FFC23AE397B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AAD456-BB33-4192-9FD5-FFC23AE397B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AAD456-BB33-4192-9FD5-FFC23AE397B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AAD456-BB33-4192-9FD5-FFC23AE397B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {528CCFB2-E796-485A-A0BF-BBFCBF5C09DF}
+		SolutionGuid = {966D7FD6-03B9-4294-ACF9-0CFA75491071}
 	EndGlobalSection
 EndGlobal
