@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace cluken1730ex1b
+namespace cluken1c1
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace cluken1730ex1b
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmFoodTruck());
         }
     }
 }
