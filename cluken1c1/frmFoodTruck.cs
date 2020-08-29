@@ -71,5 +71,10 @@ namespace cluken1c1
             this.Close();
 
         }
+
+        private void txtHotDogs_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1730e1b", "cluken1730
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1c1", "cluken1c1\cluken1c1.csproj", "{A8BEA9A9-DECD-4815-BC92-3791B538C37A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1d1", "cluken1d1\cluken1d1.csproj", "{6270683D-5A08-4A34-B4B7-61D14526429E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A8BEA9A9-DECD-4815-BC92-3791B538C37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8BEA9A9-DECD-4815-BC92-3791B538C37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8BEA9A9-DECD-4815-BC92-3791B538C37A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6270683D-5A08-4A34-B4B7-61D14526429E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6270683D-5A08-4A34-B4B7-61D14526429E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6270683D-5A08-4A34-B4B7-61D14526429E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6270683D-5A08-4A34-B4B7-61D14526429E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
