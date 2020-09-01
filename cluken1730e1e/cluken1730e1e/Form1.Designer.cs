@@ -116,6 +116,7 @@
             this.txtTestTwo.TabIndex = 7;
             this.txtTestTwo.Text = "0";
             this.txtTestTwo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTestTwo.TextChanged += new System.EventHandler(this.txtTestTwo_TextChanged);
             // 
             // txtTestThree
             // 
@@ -144,6 +145,7 @@
             this.txtTestAverage.TabIndex = 12;
             this.txtTestAverage.TabStop = false;
             this.txtTestAverage.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTestAverage.TextChanged += new System.EventHandler(this.txtTestAverage_TextChanged_1);
             // 
             // Form1
             // 
