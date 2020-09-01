@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1730e1b", "cluken1730e1b\cluken1730e1b.csproj", "{E2AAD456-BB33-4192-9FD5-FFC23AE397B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1c1", "cluken1c1\cluken1c1.csproj", "{A8BEA9A9-DECD-4815-BC92-3791B538C37A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1c1", "cluken1730e1c\cluken1c1.csproj", "{A8BEA9A9-DECD-4815-BC92-3791B538C37A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1d1", "cluken1d1\cluken1d1.csproj", "{6270683D-5A08-4A34-B4B7-61D14526429E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1d1", "cluken1730e1d\cluken1d1.csproj", "{6270683D-5A08-4A34-B4B7-61D14526429E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1730e1e", "cluken1730e1e\cluken1730e1e\cluken1730e1e.csproj", "{39B98BDB-D504-4AA6-B3F3-E15D9AF57A93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6270683D-5A08-4A34-B4B7-61D14526429E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6270683D-5A08-4A34-B4B7-61D14526429E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6270683D-5A08-4A34-B4B7-61D14526429E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B98BDB-D504-4AA6-B3F3-E15D9AF57A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B98BDB-D504-4AA6-B3F3-E15D9AF57A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B98BDB-D504-4AA6-B3F3-E15D9AF57A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B98BDB-D504-4AA6-B3F3-E15D9AF57A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

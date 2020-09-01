@@ -37,5 +37,15 @@ namespace cluken1730e1b
 
 
         }
+
+        private void txtSubtotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
