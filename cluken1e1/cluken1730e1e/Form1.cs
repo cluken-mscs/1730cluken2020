@@ -57,15 +57,6 @@ namespace cluken1730e1e
             this.Close();
         }
 
-        private void txtTestAverage_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtTestTwo_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 
 }

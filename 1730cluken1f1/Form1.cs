@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace cluken1730e1d2
+namespace _1730cluken1f1
 {
     public partial class Form1 : Form
     {
