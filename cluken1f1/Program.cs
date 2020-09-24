@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace cluken1730e1d2
+namespace cluken1f1
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace cluken1730e1d2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmCurrency());
         }
     }
 }

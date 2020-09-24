@@ -8,13 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace cluken1730e1d2
+namespace cluken1f2
 {
-    public partial class Form1 : Form
+    public partial class FrmCurrency : Form
     {
-        public Form1()
+        public FrmCurrency()
         {
             InitializeComponent();
         }
+
+        private void FrmCurrency_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

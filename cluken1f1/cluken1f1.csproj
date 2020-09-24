@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0C4998DC-3D43-44FF-862E-12E2FD788952}</ProjectGuid>
+    <ProjectGuid>{30582C90-EE24-4F98-AD93-E1C9BE2DA6E0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>cluken1730e1d2</RootNamespace>
-    <AssemblyName>cluken1730e1d2</AssemblyName>
+    <RootNamespace>cluken1f1</RootNamespace>
+    <AssemblyName>cluken1f1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -75,6 +75,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Albania-Flag-icon.png" />
+    <Content Include="Images\Australia-Flag-icon.png" />
+    <Content Include="Images\Bhutan-Flag-icon.png" />
+    <Content Include="Images\United-Kingdom-flag-icon.png" />
+    <Content Include="Images\United-States-Flag-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
