@@ -108,9 +108,5 @@ namespace cluken1d1
 
         }
 
-        private void txtUSDTotal_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
