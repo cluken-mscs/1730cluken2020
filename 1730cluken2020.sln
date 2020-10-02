@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken2a1", "cluken2a1\cluk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clukenex2b1", "clukenex2b1\clukenex2b1.csproj", "{CFB0B0B1-1222-4E6E-8FC5-E2E0F87B0F83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken2c1", "cluken2c1\cluken2c1.csproj", "{8639203D-0F0F-449F-9379-DC79BB93A669}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{CFB0B0B1-1222-4E6E-8FC5-E2E0F87B0F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFB0B0B1-1222-4E6E-8FC5-E2E0F87B0F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFB0B0B1-1222-4E6E-8FC5-E2E0F87B0F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8639203D-0F0F-449F-9379-DC79BB93A669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8639203D-0F0F-449F-9379-DC79BB93A669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8639203D-0F0F-449F-9379-DC79BB93A669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8639203D-0F0F-449F-9379-DC79BB93A669}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
