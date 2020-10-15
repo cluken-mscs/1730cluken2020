@@ -19,8 +19,8 @@ namespace cluken1730e1b
 
         private void btnCaluclate_Click(object sender, EventArgs e)
         {
-            txtDiscountAmount.Text = 
-                (Convert.ToDecimal(txtSubtotal.Text) 
+            txtDiscountAmount.Text =
+                (Convert.ToDecimal(txtSubtotal.Text)
                 * Convert.ToDecimal(txtDiscountPercent.Text) / 100).ToString("0.00");
             txtTotal.Text =
                 (Convert.ToDecimal(txtSubtotal.Text)
@@ -35,16 +35,6 @@ namespace cluken1730e1b
         {
             this.Close();
 
-
-        }
-
-        private void txtSubtotal_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtTotal_TextChanged(object sender, EventArgs e)
-        {
 
         }
     }

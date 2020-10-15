@@ -56,7 +56,6 @@
             this.txtSubtotal.Name = "txtSubtotal";
             this.txtSubtotal.Size = new System.Drawing.Size(119, 20);
             this.txtSubtotal.TabIndex = 1;
-            this.txtSubtotal.TextChanged += new System.EventHandler(this.txtSubtotal_TextChanged);
             // 
             // label2
             // 
@@ -113,7 +112,6 @@
             this.txtTotal.Size = new System.Drawing.Size(119, 20);
             this.txtTotal.TabIndex = 7;
             this.txtTotal.TabStop = false;
-            this.txtTotal.TextChanged += new System.EventHandler(this.txtTotal_TextChanged);
             // 
             // btnCaluclate
             // 
