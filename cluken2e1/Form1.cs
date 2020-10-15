@@ -34,7 +34,10 @@ namespace cluken2e1
             result09TextBox.Text = "";
             result09bTextBox.Text = "";
             result10TextBox.Text = "";
-            
+            result11TextBox.Text = "";
+            result12TextBox.Text = "";
+            result13TextBox.Text = "";
+
 
             //01
             decimal subtotal = Convert.ToDecimal(input01aTextBox.Text);
