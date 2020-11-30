@@ -48,7 +48,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken1f2", "cluken1f2\cluk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken3a1", "cluken3a1\cluken3a1.csproj", "{E82483CD-8F16-424A-8752-682883AC81E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken3a1UnitTests", "cluken3a1UnitTests\cluken3a1UnitTests.csproj", "{1299A58C-1BA5-403C-97E4-CC8FE05A2FAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cluken3a1UnitTests", "cluken3a1UnitTests\cluken3a1UnitTests.csproj", "{1299A58C-1BA5-403C-97E4-CC8FE05A2FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken3b1", "cluken3b1\cluken3b1.csproj", "{DC6996C0-0880-46AC-834D-0FE889F1452F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken3b1UnitTests", "cluken3b1UnitTests\cluken3b1UnitTests.csproj", "{C3B57079-4990-4174-BD39-520704125B9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -140,6 +144,14 @@ Global
 		{1299A58C-1BA5-403C-97E4-CC8FE05A2FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1299A58C-1BA5-403C-97E4-CC8FE05A2FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1299A58C-1BA5-403C-97E4-CC8FE05A2FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6996C0-0880-46AC-834D-0FE889F1452F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6996C0-0880-46AC-834D-0FE889F1452F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6996C0-0880-46AC-834D-0FE889F1452F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6996C0-0880-46AC-834D-0FE889F1452F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B57079-4990-4174-BD39-520704125B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B57079-4990-4174-BD39-520704125B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B57079-4990-4174-BD39-520704125B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B57079-4990-4174-BD39-520704125B9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
