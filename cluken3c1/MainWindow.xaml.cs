@@ -38,6 +38,7 @@ namespace cluken3c1
                 resultTextBox0.Text = "";
                 MessageBox.Show("Invalid input");
             }
+
             //1
             try
             {
@@ -48,9 +49,11 @@ namespace cluken3c1
                 resultTextBox1.Text = "";
                 MessageBox.Show("Invalid input");
             }
+
             //2
             int[] numbers2 = { 11, 22, 23, 34, 10 };
             resultTextBox2.Text = Ex3cCalculations.Calc2(numbers2).ToString();
+
             //3
             double[] numbers3 = { 11.1, 22.2, 23.3, 34.4, 9.0 };
             try
@@ -63,12 +66,46 @@ namespace cluken3c1
                 resultTextBox3.Text = "";
                 MessageBox.Show("Testing");
             }
+
+            //4
+            double[] numbers4 = new double[inputListBox4a.Items.Count];
+            for (int i = 0; i < numbers4.GetLength(0); i++)
+            numbers4[i] = Double.Parse(inputListBox4a.Items[i].ToString());
+            resultTextBox4.Text = Ex3cCalculations.Calc3(numbers4, numbers4.GetLength(0)).ToString("0.0");
+
+            //5
+            double[] numbers5 = new double[inputListBox5a.Items.Count];
+            for (int i = 0; i < numbers5.GetLength(0); i++)
+                numbers5[i] = Double.Parse(inputListBox5a.Items[i].ToString());
+            resultTextBox5.Text = Ex3cCalculations.Calc3(numbers5, numbers5.GetLength(0)).ToString("0.0");
+            resultTextBox5.Text = Ex3cCalculations.Calc5(numbers5).ToString("0.0");
+
+            //6
+            double[] numbers6 = new double[inputListBox6a.Items.Count];
+            for (int i = 0; i < inputListBox6a.Items.Count; i++)
+                {
+                    numbers6[i] = Double.Parse(inputListBox6a.Items[i].ToString());
+                }
+                double[] aboveAvg = Ex3cCalculations.Calc6(numbers6);
+            foreach (double number in aboveAvg)
+            {
+                resultListBox6.Items.Add(number);
+            }
         }
 
 
 
         private void addItemButton4_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                double input = Double.Parse(this.inputTextBox4a.Text);
+                this.inputListBox4a.Items.Add(input.ToString("n1"));
+            }
+            catch 
+            {
+
+            }
 
         }
 
@@ -91,6 +128,13 @@ namespace cluken3c1
             inputListBox6a.Items.Add("23.3");
             inputListBox6a.Items.Add("34.4");
             inputListBox6a.Items.Add("9.0");
+
+            inputTextBox0a.Focus();
+        }
+
+        private void inputTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            ((TextBox)sender).SelectAll();
         }
     }
 }

@@ -11,8 +11,8 @@ namespace cluken3c1
 
         public static string Calc0(int index)
         {
-            string result = "Invalid Index";
-            string status = "Invalid Index";
+            string result = "Invalid index";
+            string status = "Invalid index";
             try
             {
                 string[] days = new string[] { "", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
@@ -33,7 +33,7 @@ namespace cluken3c1
         {
             search = search.Trim();
             search = search.ToUpper();
-            string result = "Invalid Input";
+            string result = "Invalid input";
             try
             {
                 string[] days = { "SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY" };
@@ -67,14 +67,38 @@ namespace cluken3c1
             }
             else return 0.0;
         }
+
         public static double Calc5(double[] numbers)
         {
-            return 0.0;
+            double sum = 0.0;
+            int length = numbers.Length;
+            if (length > 0)
+            {
+                foreach (double number in numbers)
+                    sum += number;
+                double average = sum / numbers.Length;
+                return average;
+            }
+            else return -1.0;
         }
 
         public static double[] Calc6(double[] numbers)
         {
-            return new double[10];
+            int length = numbers.GetLength(0);
+            List<Double> aboveAvgList = new List<double>();
+            if (length > 0)
+            {
+                double avg = Calc5(numbers);
+                foreach (double number in numbers)
+                {
+                    if (number > avg)
+                        aboveAvgList.Add(number);
+                }
+
+                return aboveAvgList.ToArray();
+            }
+            return aboveAvgList.ToArray();
         }
+        
     }
 }

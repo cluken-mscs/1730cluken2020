@@ -1,6 +1,7 @@
+﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using cluken3c1;
-using System;
+
 
 namespace cluken3c1UnitTests
 {
@@ -10,37 +11,37 @@ namespace cluken3c1UnitTests
         [TestMethod]
         public void Calc0_IndexBelowRange()
         {
-            Assert.AreEqual( "Invalid Index", Ex3cCalculations.Calc0 (0));
+            Assert.AreEqual("Invalid index", Ex3cCalculations.Calc0(0));
         }
         [TestMethod]
         public void Calc0_IndexAboveRange()
         {
-            Assert.AreEqual( "Invalid Index", Ex3cCalculations.Calc0 (8));
+            Assert.AreEqual("Invalid index", Ex3cCalculations.Calc0(8));
         }
         [TestMethod]
         public void Calc0_Sunday()
         {
-            Assert.AreEqual( "Sunday", Ex3cCalculations.Calc0 (1));
+            Assert.AreEqual("Sunday", Ex3cCalculations.Calc0(1));
         }
         [TestMethod]
         public void Calc0_Saturday()
         {
-            Assert.AreEqual( "Saturday", Ex3cCalculations.Calc0 (7));
+            Assert.AreEqual("Saturday", Ex3cCalculations.Calc0(7));
         }
         [TestMethod]
         public void Calc1_SearchStringNotFound()
         {
-            Assert.AreEqual ( "Invalid Input", Ex3cCalculations.Calc1 (""));
+            Assert.AreEqual("Invalid input", Ex3cCalculations.Calc1(""));
         }
         [TestMethod]
         public void Calc1_Sunday()
         {
-            Assert.AreEqual("Closed", Ex3cCalculations.Calc1("Sunday"));
+            Assert.AreEqual("Closed", Ex3cCalculations.Calc1(" sUnDAy "));
         }
         [TestMethod]
         public void Calc1_Saturday()
         {
-            Assert.AreEqual("8am - 4pm", Ex3cCalculations.Calc1("Saturday"));
+            Assert.AreEqual("8am - 4pm", Ex3cCalculations.Calc1(" saTuRDAy "));
         }
         [TestMethod]
         public void Calc2()
@@ -70,7 +71,7 @@ namespace cluken3c1UnitTests
         public void Calc6()
         {
             double[] numbers = { 2.3, 16.1, 7.9, 22.3, 35.4 };
-            double[] aboveAvg =  Ex3cCalculations.Calc6(numbers);
+            double[] aboveAvg = Ex3cCalculations.Calc6(numbers);
             Assert.AreEqual(22.3, aboveAvg[0]);
             Assert.AreEqual(35.4, aboveAvg[1]);
         }
