@@ -58,6 +58,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken3c1", "cluken3c1\cluk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken3c1UnitTests", "cluken3c1UnitTests\cluken3c1UnitTests.csproj", "{F97E8AA7-D4D2-4D2D-A614-01AE256D3606}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken3d1", "cluken3d1\cluken3d1.csproj", "{430DA0D1-5C06-4945-8586-E62B74210EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cluken3d1UnitTests", "cluken3d1UnitTests\cluken3d1UnitTests.csproj", "{4DEE5CE5-BEF1-47E5-A3E5-4125D6C464AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -164,6 +168,14 @@ Global
 		{F97E8AA7-D4D2-4D2D-A614-01AE256D3606}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F97E8AA7-D4D2-4D2D-A614-01AE256D3606}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F97E8AA7-D4D2-4D2D-A614-01AE256D3606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430DA0D1-5C06-4945-8586-E62B74210EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430DA0D1-5C06-4945-8586-E62B74210EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430DA0D1-5C06-4945-8586-E62B74210EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430DA0D1-5C06-4945-8586-E62B74210EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEE5CE5-BEF1-47E5-A3E5-4125D6C464AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEE5CE5-BEF1-47E5-A3E5-4125D6C464AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEE5CE5-BEF1-47E5-A3E5-4125D6C464AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEE5CE5-BEF1-47E5-A3E5-4125D6C464AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
